@@ -1,0 +1,11 @@
+.vscode/
+.history/
+.git/
+.github/
+
+docs/
+deploy/
+build/docker/
+
+target/
+**.lock

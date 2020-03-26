@@ -1,0 +1,28 @@
+language: rust
+
+sudo: required
+
+rust:
+  - nightly
+
+matrix:
+  allow_failures:
+    - rust: nightly
+
+addons:
+  apt:
+    packages:
+      - libcurl4-openssl-dev
+      - libelf-dev
+      - libdw-dev
+      - cmake
+      - gcc
+      - binutils-dev
+      - libiberty-dev
+      - llvm
+
+before_cache:
+  - rm -rf "$TRAVIS_HOME/.cargo/registry/src"
+  
+script:
+  - cargo xbuild --verbose --all
