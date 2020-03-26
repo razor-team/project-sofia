@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/razor-team/project-sofia.svg?branch=master)](https://travis-ci.com/razor-team/project-sofia)
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ryRzVmB/a3764d00-162d-11ea-9fd4-75bbe997bb43.jpg" alt="a3764d00-162d-11ea-9fd4-75bbe997bb43" border="0"></a>
+
 ## Description
 
 High Level OS for `x86-64/IA-64/ARM` architecture processors.
