@@ -12,6 +12,6 @@ fn panic(_info: &PanicInfo) -> ! {
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    vga_buffer::print("Welcome to S.O.F.I.A Project   ");
+    println!("S.O.F.I.A Project");
     loop {}
 }
