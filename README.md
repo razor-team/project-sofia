@@ -17,6 +17,9 @@ I wanna to make unix-like syscalls/commands system and as is open the `HTTP API`
 * [Little Book about OS DEV](https://littleosbook.github.io/)
 * [QEMU](https://www.qemu.org/)
 * [Memory Safety](https://en.wikipedia.org/wiki/Memory_safety)
+* [VGA Text Mode](https://en.wikipedia.org/wiki/VGA-compatible_text_mode)
+* [ASCII Encoding](https://en.wikipedia.org/wiki/ASCII)
+* [memory-mapped I/O](https://en.wikipedia.org/wiki/Memory-mapped_I/O)
 
 ## Run
 
