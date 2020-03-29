@@ -22,6 +22,12 @@ I wanna to make unix-like syscalls/commands system and as is open the `HTTP API`
 * [VGA Text Mode](https://en.wikipedia.org/wiki/VGA-compatible_text_mode)
 * [ASCII Encoding](https://en.wikipedia.org/wiki/ASCII)
 * [memory-mapped I/O](https://en.wikipedia.org/wiki/Memory-mapped_I/O)
+* [ACPI](https://wiki.osdev.org/ACPI)
+* [APM](https://wiki.osdev.org/APM)
+* [Exit Status](https://en.wikipedia.org/wiki/Exit_status)
+* [I/O Ports](https://wiki.osdev.org/I/O_Ports#The_list)
+* [Serial Port](https://en.wikipedia.org/wiki/Serial_port)
+* [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 
 ## Build
 
