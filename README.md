@@ -25,22 +25,25 @@ I wanna to make unix-like syscalls/commands system and as is open the `HTTP API`
 
 ## Run
 
+* `cargo xbuild`
+* `cargo bootimage`
+
 ### QEMU
 
 [QEMU](https://www.qemu.org/) is requred for dev-mode run
 
-* `cargo xbuild`
-* `cargo bootimage`
-* `qemu-system-x86_64 -drive format=raw,file=target/x86_64-project_sofia/debug/bootimage-project_sofia.bin`
+* `cargo xrun`
 
 ### Real Machine
 
-`dd if=target/x86_64-project_sofia/debug/bootimage-project_sofia.bin of=/dev/sdX && sync`
+* `dd if=target/x86_64-project_sofia/debug/bootimage-project_sofia.bin of=/dev/sdX && sync`
 
 Where `sdX` is the device name of your USB stick. Be careful to choose the correct device name, because everything on that device is overwritten.
 
-### Cargo
-
-`cargo xrun`
-
 <a href="https://ibb.co/5n6Ln4z"><img src="https://i.ibb.co/1dLTdQp/26-03-2020-17-40-42.png" alt="26-03-2020-17-40-42" border="0"></a>
+
+## Test
+
+* `cargo xbuild`
+* `cargo bootimage`
+* `cargo xtest`
