@@ -23,12 +23,14 @@ I wanna to make unix-like syscalls/commands system and as is open the `HTTP API`
 * [ASCII Encoding](https://en.wikipedia.org/wiki/ASCII)
 * [memory-mapped I/O](https://en.wikipedia.org/wiki/Memory-mapped_I/O)
 
-## Run
+## Build
 
 * `cargo xbuild`
 * `cargo bootimage`
 
-### QEMU
+## Run
+
+### Virtual Machine
 
 [QEMU](https://www.qemu.org/) is requred for dev-mode run
 
@@ -42,8 +44,6 @@ Where `sdX` is the device name of your USB stick. Be careful to choose the corre
 
 <a href="https://ibb.co/5n6Ln4z"><img src="https://i.ibb.co/1dLTdQp/26-03-2020-17-40-42.png" alt="26-03-2020-17-40-42" border="0"></a>
 
-## Test
+### Tests
 
-* `cargo xbuild`
-* `cargo bootimage`
 * `cargo xtest`
