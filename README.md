@@ -29,6 +29,12 @@ I wanna to make unix-like syscalls/commands system and as is open the `HTTP API`
 * [Serial Port](https://en.wikipedia.org/wiki/Serial_port)
 * [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 
+## Install Tools
+
+* `rustup target add x86_64-unknown-none`
+* `cargo install cargo-xbuild`
+* `cargo install bootimage`
+
 ## Build
 
 * `cargo xbuild`
