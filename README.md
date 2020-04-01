@@ -31,6 +31,8 @@ I wanna to make unix-like syscalls/commands system and as is open the `HTTP API`
 
 ## Install Tools
 
+Minimal Rust version: `rustc 1.43.0-nightly`
+
 * `rustup target add x86_64-unknown-none`
 * `cargo install cargo-xbuild`
 * `cargo install bootimage`
